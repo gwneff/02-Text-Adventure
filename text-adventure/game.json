@@ -1,0 +1,92 @@
+{
+	"LIVINGROOM": {
+		"name": "Living room",
+		"desc": "You are standing in the middle of the living room, trying to find a clean shirt to wear for class.",
+		"exits": [{
+			"exit": "KITCHEN",
+			"target": "KITCHEN"
+		}, {
+			"exit": "BATHROOM",
+			"target": "BATHROOM"
+		}, {
+			"exit": "BEDROOM",
+			"target": "BEDROOM"
+		}, {
+			"exit": "FRONT YARD",
+			"target": "FRONTYARD"
+		}, {
+			"exit": "GARAGE",
+			"target": "GARAGE"
+		}],
+		"items": []
+    }
+    ,"KITCHEN":{
+        "name": "Kitchen",
+		"desc": "You walk into the kitchen and notice you are out of cookies. You don't see any shirts.",
+		"exits": [{
+			"exit": "BACK YARD",
+			"target": "BACKYARD"
+		}, {
+			"exit": "LIVING ROOM",
+			"target": "LIVINGROOM"
+		}],
+		"items": []
+    }
+    ,"BACKYARD":{
+        "name": "Back Yard",
+		"desc": "You step into the back yard to see your neighbor's dog has pooped on your side of the fence. There is no shirt in the back yard,",
+		"exits": [{
+			"exit": "KITCHEN",
+			"target": "KITCHEN"
+        }],
+        "items": []
+    }
+    ,"BATHROOM":{
+        "name": "Bathroom",
+		"desc": "You step into the bathroom and find that someone didn't flush. You can't find any shirts.",
+		"exits": [{
+			"exit": "LIVING ROOM",
+			"target": "LIVINGROOM"
+        }],
+        "items": []
+    }
+    ,"BEDROOM":{
+        "name": "Bedroom",
+		"desc": "You walk into your bedroom and sit on the edge of the bed next to the pile of dirty clothes. You look through the pile, but all the shirts smell horrible.",
+		"exits": [{
+			"exit": "LIVING ROOM",
+			"target": "LIVINGROOM"
+		}, {
+			"exit": "CLOSET",
+			"target": "CLOSET"
+        }],
+        "items": []
+    }
+    ,"CLOSET":{
+        "name": "Closet",
+		"desc": "You walk into your small closet and take a whiff of all the clean shirts hanging up. YOU DID IT!",
+		"exits": [{
+			"exit": "BEDROOM",
+			"target": "BEDROOM"
+        }],
+        "items": []
+    }
+    ,"GARAGE":{
+        "name": "Garage",
+		"desc": "You step into your garage and see piles of cardboard boxes labeled as junk. You don't see any shirts.",
+		"exits": [{
+			"exit": "LIVING ROOM",
+			"target": "LIVINGROOM"
+        }],
+        "items": []
+    }
+    ,"FRONTYARD":{
+        "name": "Front Yard",
+		"desc": "You step out into the front yard and see cars driving by. You don't see any shirts.",
+		"exits": [{
+			"exit": "LIVING ROOM",
+			"target": "LIVINGROOM"
+        }],
+        "items": []
+    }
+}
